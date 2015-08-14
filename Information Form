@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="includes/background.css" />
+	<HEAD>
+		<TITLE> Freshmen form</TITLE>
+
+
+	</HEAD>
+
+	
+	<BODY bgcolor="gray">
+		
+		<form id="myform">
+		
+		<center> <br>
+		<br>
+		<br>
+		<h2>PERSONAL INFORMATION  </h2> 
+			 <table>
+		    <tr><td> Name: </td><td><input type="text" name=txtname maxlength="10"/></td></tr><br>
+			<tr><td> Student ID number:</td><td> <input tupe="text" maxlength="10"/>
+			<tr><td> Gender</td><td> <input type="radio" name="rdgender" value="Male">Male
+					<input type="radio" name="rdgender" value="Female"> Female 
+			<tr><td> Civil status:</td><td>  <select name="sstatus">
+						<option> Single
+						<option> Married
+						</td></tr> 
+						</select>				
+			<tr><td>Citizenship:</td><td> <input type="text" /></td></tr><br>
+			<tr><td>Religion: </td><td><input type="text" /><br>
+			<tr><td>Ethnic Group:</td><td> <input type="text"/><br>
+			<tr><td>Date of birth:</td><td> <input type="text"/><br>
+			<tr><td>Place of birth: </td><td><input type="text"/>><br>
+			<tr><td>Permanent Address:</td><td> <input type="text"/><br>
+			<tr><td>Contact number: </td><td><input type="text" maxlength="11"/></td></tr><br>
+			
+			
+			</table>
+			<br> 
+			<br>
+			<input type="submit" value="Submit"/> 
+		</center>
+		</form>
+		
+	</BODY>
+</html> 
